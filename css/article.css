@@ -1,0 +1,155 @@
+.main-article {
+  position: relative;
+  width: 100%;
+  top: -225px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.article-body {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.article-headline {
+  background-color: #84a9ac;
+  border-bottom: 1px solid #204051;
+  padding: 10px;
+  color: white;
+  max-height: 250px;
+}
+
+.article-category-date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  text-transform: uppercase;
+  font-size: 11px;
+  border-bottom: 1px dotted white;
+  padding: 5px;
+}
+
+.article-post-date, .article-category {
+  display: flex;
+}
+
+.article-post-date {
+  justify-content: flex-end;
+}
+
+.article-category {
+  justify-content: flex-start;
+}
+
+.article-author-info {
+  font-size: 12px;
+  padding: 5px;
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+}
+.article-author {
+  color: #204051;
+}
+.article-author-title {
+  color: #204051
+}
+
+.article-content {
+  padding: 10px;
+}
+
+.article-figure {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.article-figcaption {
+  font-size: 10px;
+  padding: 5px;
+}
+
+.article-blockquote {
+  border-left: 5px solid gray;
+  margin: 0 auto 0 10px;
+  padding: 10px 10px 10px 15px;
+  border-radius: 0 4px 4px 0;
+  background-color: #F5F5F5;
+}
+
+.article-additional-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.author-social-bio {
+  padding: 15px;
+  background-color: #cae8d5;
+}
+
+.social-list {
+  display: block;
+  list-style: none;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.social-item {
+  display: inline-block;
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 15px;
+}
+
+.social-item a { 
+  display: block;
+}
+
+.article-additional-posts {
+  padding: 5px 15px;
+  max-width: 1200px;
+  margin: -200px auto 0;
+}
+
+.article-previous-post, .article-next-post  {
+  display: flex;
+}
+
+.article-previous-post {
+  justify-content: flex-start;
+}
+
+.article-next-post {
+  
+  justify-content: flex-end;
+}
+
+.article-post-nav {
+  color: #204051;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  border: 1px solid #204051;
+  border-radius: 8px;
+  padding: 10px 10px;
+  font-size: 11px;
+}
+
+.article-post-nav:hover {
+  color: black;
+}
+
+
+@media (min-width: 600px) { 
+  
+}
+@media (min-width: 1200px) {
+  .article-content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
